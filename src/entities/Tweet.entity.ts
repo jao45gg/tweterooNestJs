@@ -7,4 +7,13 @@ export class Tweet {
     this.user = user;
     this.tweet = tweet;
   }
+  getTweet() {
+    return this.tweet;
+  }
+  getUsername() {
+    return this.user.getUsername();
+  }
+  getAvatar() {
+    return this.user.getUsername();
+  }
 }
